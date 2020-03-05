@@ -5,6 +5,7 @@
   `skills` varchar(255) DEFAULT NULL,
 
 ## Part 2: Test it with SQL
+select name from employer where location="St. Louis";
 
 ## Part 3: Test it with SQL
 
