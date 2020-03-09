@@ -10,3 +10,4 @@ select name from employer where location="St. Louis";
 ## Part 3: Test it with SQL
 drop table job;
 ## Part 4: Test it with SQL
+SELECT s.name, s.description FROM skill s INNER JOIN job_skills js ON s.id=js.skills_id ORDER BY s.name;
